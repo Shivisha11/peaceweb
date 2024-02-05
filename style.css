@@ -1,0 +1,178 @@
+.navigation{
+     margin-bottom: 2px; 
+    background-color: black;
+    list-style-type: none;
+    display: flex;
+    padding: 15px;
+    border: 5px solid black;
+    color: white;
+    float: left;
+    text-transform: uppercase;
+    flex-direction: row-reverse;
+    padding-left: 10px;
+    width: 100%;
+
+}
+navigation>li{
+    justify-content: space-evenly;
+    text-align: justify;
+    border: 20px;
+    
+    
+}
+.home{
+    /* padding-right: 10px; */
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border-style: dotted;
+    border-color: red;
+    margin: 14px;
+    
+}
+.about{
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    border-style: dotted;
+    border-color: red;
+    margin: 14px;
+    
+}
+.contact{
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    border-style: dotted;
+    border-color: red;
+    margin: 14px;
+}
+.fuck{
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    border-style: dotted;
+    border-color: red;
+    margin: 14px;
+    
+}
+li:hover, li:active {
+    background-color: red;
+    font-size: 20px;
+}
+.head{
+    border: 5px solid black;
+    background-color: black;
+    color: rgb(245, 10, 41);
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 2px;
+    width: 100%;
+    height: 100px;
+    text-transform: uppercase;
+    /* position: absolute; */
+    background-size:100% 100%;
+    /* background-repeat: no-repeat; */
+   
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+    padding: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    justify-content: space-between;
+}
+.container-box1{
+    display: flex;
+    width: 330px;
+    height: 300px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    justify-content:center;
+    background-color: aliceblue;
+    margin: 20px;
+    border: dotted red;
+    float: left;
+    background-image: url(/images/love.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.container-box2{
+    display: inline;
+    width: 330px;
+    height: 300px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    justify-content: center;
+    background-color: aliceblue;
+    border: dotted red;
+    margin: 20px;
+    float: left;
+    background-image: url(/images/sunset-meditation-mudra.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    padding-right: 8px;
+}
+
+.container-box3{
+    display: flex;
+    width: 330px;
+    height: 300px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    justify-content: center;
+    background-color: aliceblue;
+    border: dotted red;
+    margin: 20px;
+    float: left;
+    background-image: url(/images/allstarsdallas050-edit-1677013329.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+}
+.container-box1>p{
+    color:whitesmoke;
+    font-size: 20px;
+    padding: 20px;
+}
+.container-box2>p{
+    color: whitesmoke;
+    font-size: 20px;
+padding: 20px;
+}
+.container-box3>p{
+    color: white;
+    padding: 25px;
+    font-size: 20px;
+}
+.foot{
+    height: 100px;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: red;
+    padding: 20PX;
+    text-align: center;
+    font-size: 20PX;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+.header-image{
+
+height: fit-content;
+}
+
+div:hover div:active{
+}
