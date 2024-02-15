@@ -174,5 +174,10 @@ padding: 20px;
 height: fit-content;
 }
 
-div:hover div:active{
+.yellow{
+    color: yellow;
+}
+
+.green{
+    color: green;
 }
